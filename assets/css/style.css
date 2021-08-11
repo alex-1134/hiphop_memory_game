@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    background-color: #ffcccc;
+    border: 1px solid black;
+    margin: 1px;
+    /*flex-basis: 15%;
+    flex-grow: 1; */
+}
+
+.one {
+    background-color: blue;
+}
+
+.two {
+    background-color: green;
+}
+
+.three {
+    background-color: yellow;
+}
+
+.four {
+    background-color: yellowgreen ;
+}
+
+.five {
+    background-color: blueviolet;
+}
+
+.six {
+    background-color: whitesmoke;
+}
+
+.seven {
+    background-color: orangered;
+}
+
+.eight {
+    background-color: orange;
+}
+
+.nice {
+    background-color: hotpink;
+}
+
+.ten {
+    background-color: mediumseagreen;
+}
+
+.eleven {
+    background-color: sienna;
+}
+
+.twelve {
+    background-color: lightblue;
+}
+
+.matched /* two cards that are a match and no longer a part of the game */ {
+    background-color: white;
+}
+
+.hidden /* changing back to the regular colour, after cards were visible for a couple of seconds */ {
+    background-color: #ffcccc;
+}
