@@ -6,7 +6,37 @@ let pics = document.querySelectorAll('div');
 pics = [...pics]; 
 
 /* This function allows the player to choose a card - works with the EventListener below */
-const pickPic = function() {};
+const pickPic = function() {
+  chosenPic = this;
+  chosenPic.classList.remove('hidden');
+
+  /* First click */
+  if(chosenPics.length === 0) {
+    chosenPics[0] = chosenPic;
+    return;
+
+  /* Second click */  
+  } else {
+      pics.forEach(function(pic) {
+        pic.removeEventListener('click', pickPic);
+        chosenPics[1] = chosenPic;
+
+
+        if(chosenPics[0].className === chosenPics[1].className) {
+          console.log('WINNING');
+          chosenPics.forEach(function(pic) {
+            pic.classList.add('matched')
+            
+          })
+        } else {
+            console.log('BOOO');
+            chosenPics.forEach(function(pic) {
+              pic.classList.add('hidden')
+            })
+        }
+      }) 
+  }
+};
 
 let chosenPic = '';
 const chosenPics = [];
@@ -31,7 +61,7 @@ const start = function() {
       pic.classList.add('hidden');
       pic.addEventListener('click', pickPic)
     });
-  }, 3000) 
+  }, 500) 
 }
 
 start()
