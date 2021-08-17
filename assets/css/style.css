@@ -17,8 +17,6 @@ div {
     background-color: #ffcccc;
     border: 1px solid black;
     margin: 1px;
-    /*flex-basis: 15%;
-    flex-grow: 1; */
 }
 
 .one {
@@ -58,7 +56,7 @@ div {
 }
 
 .ten {
-    background-image: url("../images/redd.jpg");
+    background-image: url("../images/redd.png");
 }
 
 .eleven {
