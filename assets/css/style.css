@@ -22,55 +22,51 @@ div {
 }
 
 .one {
-    background-image: url("assets/images/2pac.png");
-    width: 100px;
-    height: 100px;
+    background-image: url("../images/2pac.png");
 }
 
 .two {
-    background-image: url("assets/images/tyla.png");
-    width: 100px;
-    height: 100px;
+    background-image: url("../images/fetty.png");
 }
 
 .three {
-    background-color: yellow;
+    background-image: url("../images/gashi.png");
 }
 
 .four {
-    background-color: yellowgreen ;
+    background-image: url("../images/geazy.png");
 }
 
 .five {
-    background-color: blueviolet;
+    background-image: url("../images/ice.png");
 }
 
 .six {
-    background-color: whitesmoke;
+    background-image: url("../images/juice.png");
 }
 
 .seven {
-    background-color: orangered;
+    background-image: url("../images/logic.png");
 }
 
 .eight {
-    background-color: orange;
+    background-image: url("../images/mata.png");;
 }
 
 .nine {
-    background-color: hotpink;
+    background-image: url("../images/posty.png");
 }
 
 .ten {
-    background-color: mediumseagreen;
+    background-image: url("../images/redd.jpg");
 }
 
 .eleven {
-    background-color: sienna;
+    background-image: url("../images/saint.png");
 }
 
 .twelve {
-    background-color: lightblue;
+    background-image: url("../images/tyla.png");
 }
 
 .matched /* two cards that are a match and no longer a part of the game */ {
