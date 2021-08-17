@@ -48,36 +48,9 @@ const pickPic = function() {
         pics.forEach(pic => pic.addEventListener('click', pickPic));
 
 
-      }, 1000);
+      }, 3000);
     }
-  };
- 
-
-
-
-
-     /* pics.forEach(pic => ) {
-        pic.removeEventListener('click', pickPic);
-        chosenPics[1] = chosenPic;
-
-        setTimeout(function() {
-          if(chosenPics[0].className === chosenPics[1].className) {
-            console.log('WINNING!!');
-            chosenPics.forEach(function(pic) {
-              pic.classList.add('matched')  
-            })
-  
-          } else {
-              console.log('NOT THIS TIME, BUDDY!');
-              chosenPics.forEach(function(pic) {
-                pic.classList.add('hidden')
-              })
-          }
-        }), 2000;
-    }
-        )} */
-
-        
+  };        
 
 
 let chosenPic = '';

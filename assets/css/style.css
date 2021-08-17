@@ -22,11 +22,15 @@ div {
 }
 
 .one {
-    background-color: blue;
+    background-image: url("assets/images/2pac.png");
+    width: 100px;
+    height: 100px;
 }
 
 .two {
-    background-color: green;
+    background-image: url("assets/images/tyla.png");
+    width: 100px;
+    height: 100px;
 }
 
 .three {
