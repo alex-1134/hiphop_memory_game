@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Cream+Soda&display=swap');
 
 * {
     padding: 0;
@@ -8,8 +9,8 @@
 
 body {
     background-color: blanchedalmond;
-    font-family: 'Roboto', sans-serif;
-    background-image: url(../images/backg.jpg);
+    font-family: 'Roboto', sans-serif;  
+    background-image: url(../images/white-light.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -17,10 +18,11 @@ body {
 div {
     height: 100px;
     width: 100px;
-    
     border: 1px solid black;
     margin: 1px;
+    border-radius: 10px;
 }
+
 
 /* ....................... FIRST GAME 4X4 */
 
@@ -56,11 +58,45 @@ div {
     background-image: url("../images/hiphop/mata.png");
 }
 
-.game-grid {
+#game-grid {
     display: grid;
     grid-template-columns: repeat(4, 100px);
     grid-template-rows: repeat(4, 100px);
-    grid-gap: 1em;
+    grid-gap: 1px;
+    margin: auto;
+    width: fit-content;
+    margin-top: 100px; 
+    margin-bottom: 150px;
+    filter: grayscale(100%);
+}
+
+@media screen and (max-width: 1396px) {
+    #game-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(4, 100px);
+    grid-gap: 1px;
+    margin: auto;
+    width: fit-content;
+    margin-top: 100px;
+    margin-bottom: 150px; 
+    filter: grayscale(100%);
+}
+}
+
+
+@media screen and (max-width: 750px) {
+    #game-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    grid-template-rows: repeat(8, 100px);
+    grid-gap: 1px;
+    margin: auto;
+    width: fit-content;
+    margin-top: 100px; 
+    margin-bottom: 150px;
+    filter: grayscale(100%);
+}
 }
   
 /* "grid--item" with 2 hyphens for HTML in game_one */  
@@ -145,13 +181,46 @@ div {
 }
 
 
-.game-wrap {
+#game-wrap {
     display: grid;
     grid-template-columns: repeat(6, 100px);
     grid-template-rows: repeat(6, 100px);
-    grid-gap: 1em;
+    grid-gap: 1px;
+    margin: auto;
+    width: fit-content;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    filter: grayscale(100%);
 }
 
+@media screen and (max-width: 1396px) {
+    #game-wrap {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(9, 100px);
+    grid-gap: 1px;
+    margin: auto;
+    width: fit-content;
+    margin-top: 150px; 
+    margin-bottom: 150px;
+    filter: grayscale(100%);
+}
+}
+
+
+@media screen and (max-width: 750px) {
+    #game-wrap {
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    grid-template-rows: repeat(18, 100px);
+    grid-gap: 1px;
+    margin: auto;
+    width: fit-content;
+    margin-top: 100px;
+    margin-bottom: 150px; 
+    filter: grayscale(100%);
+}
+}
 
 /* "grid-item" with 1 hyphen for HTML in game_two */  
 .grid-item {
@@ -179,19 +248,52 @@ div {
     border: none;
     padding: 10px;
     margin-top:200px;
-     margin-top: 100px;
+    margin-top: 100px;
     text-transform: uppercase;
     font-size: 30px;
     text-decoration: none;
     text-align: center;
-    background-color: none;
-    
-   
+    background-color: none; 
 }
 
 .header-main {
     text-transform: uppercase;
     text-align: center;
     margin-top: 100px;
+    margin-bottom: 100px;
     font-size: 50px;
+    font-weight: 900;
+    font-family: 'Cherry Cream Soda', cursive;
 }
+
+#main-page-body {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Back Button to the main page */
+
+.the-btn {
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.main-btn {
+    text-align: center;
+    padding: 5%;
+    color: black;
+}
+
+a {
+    text-decoration: none; 
+    color: black;
+    font-weight: 600;
+}
+
+a:hover {
+    color: orangered;
+}
+

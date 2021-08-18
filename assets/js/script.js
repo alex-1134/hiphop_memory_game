@@ -44,7 +44,7 @@ const clickPic = function () {
               if (gameResult == gameLenght) {
                   const endGame = new Date().getTime();
                   const gameTime = (endGame - beginGame) / 1000
-                  alert(`You won! Your score is: ${gameTime} `)
+                  alert(`You won, buddy! Your score is: ${gameTime}`)
                   location.reload();
               }
           }
@@ -73,7 +73,7 @@ const init = function () {
           pic.classList.add("hidden")
           pic.addEventListener("click", clickPic)
       })
-  }, 2000)
+  }, 500)
 };
 
 init()
