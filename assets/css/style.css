@@ -19,53 +19,114 @@ div {
     margin: 1px;
 }
 
+/* Pictures for the hip-hop game */
+
 .one {
-    background-image: url("../images/2pac.png");
-}
+        background-image: url("../images/hiphop/juice.png");
+    }
 
 .two {
-    background-image: url("../images/fetty.png");
+    background-image: url("../images/hiphop/fetty.png");
 }
 
 .three {
-    background-image: url("../images/gashi.png");
+    background-image: url("../images/hiphop/gashi.png");
 }
 
 .four {
-    background-image: url("../images/geazy.png");
+    background-image: url("../images/hiphop/geazy.png");
 }
 
 .five {
-    background-image: url("../images/ice.png");
+    background-image: url("../images/hiphop/posty.png");
 }
 
 .six {
-    background-image: url("../images/juice.png");
+    background-image: url("../images/hiphop/saint.png");
 }
 
 .seven {
-    background-image: url("../images/logic.png");
+    background-image: url("../images/hiphop/logic.png");
 }
 
 .eight {
-    background-image: url("../images/mata.png");;
+    background-image: url("../images/hiphop/mata.png");
 }
 
-.nine {
-    background-image: url("../images/posty.png");
+/* Pictures for the popstar game */
+
+.pic-1 {
+    background-image: url("../images/pop/alicia.jpg");
 }
 
-.ten {
-    background-image: url("../images/redd.png");
+.pic-2 {
+background-image: url("../images/pop/avicii.jpg");
 }
 
-.eleven {
-    background-image: url("../images/saint.png");
+.pic-3 {
+background-image: url("../images/pop/avril.jpg");
 }
 
-.twelve {
-    background-image: url("../images/tyla.png");
+.pic-4 {
+background-image: url("../images/pop/bebe.jpg");
 }
+
+.pic-5 {
+background-image: url("../images/pop/beyonce.jpg");
+}
+
+.pic-6 {
+background-image: url("../images/pop/billie.jpg");
+}
+
+.pic-7 {
+background-image: url("../images/pop/britney.jpg");
+}
+
+.pic-8 {
+background-image: url("../images/pop/bts.jpg");
+}
+
+.pic-9 {
+    background-image: url("../images/pop/diplo.jpg");
+}
+
+.pic-10 {
+background-image: url("../images/pop/dua.jpeg");
+}
+
+.pic-11 {
+background-image: url("../images/pop/jess.jpg");
+}
+
+.pic-12 {
+background-image: url("../images/pop/justin_b.jpg");
+}
+
+.pic-13 {
+background-image: url("../images/pop/justin_t.jpg");
+}
+
+.pic-14 {
+background-image: url("../images/pop/mariah.jpg");
+}
+
+.pic-15 {
+background-image: url("../images/pop/ariana.jpg");
+}
+
+.pic-16 {
+background-image: url("../images/pop/whitney.jpg");
+}
+
+.pic-17 {
+    background-image: url("../images/pop/wknd.jpg");
+    }
+    
+.pic-18 {
+    background-image: url("../images/pop/marshmello.jpg");
+    }
+
 
 .matched /* two cards that are a match and no longer a part of the game */ {
     background-color: white;
@@ -74,3 +135,4 @@ div {
 .hidden /* changing back to the regular colour, after cards were visible for a couple of seconds */ {
     background-color: #ffcccc;
 }
+

@@ -1,6 +1,8 @@
 // My picture selection 
-const picSelection = ['one', 'one', 'two', 'two', 'three', 'three', 'four', 'four', 'five', 'five', 'six', 'six',
- 'seven', 'seven', 'eight', 'eight'];
+const picSelection = ['pic-1', 'pic-1', 'pic-2', 'pic-2', 'pic-3', 'pic-3', 'pic-4', 'pic-4',
+ 'pic-5', 'pic-5', 'pic-6', 'pic-6', 'pic-7', 'pic-7', 'pic-8', 'pic-8', 'pic-9', 'pic-9',
+ 'pic-10', 'pic-10', 'pic-11', 'pic-11', 'pic-12', 'pic-12','pic-13', 'pic-13', 'pic-14', 'pic-14',
+ 'pic-15', 'pic-15', 'pic-16', 'pic-16', 'pic-17', 'pic-17', 'pic-18', 'pic-18'];
 
 let pics = document.querySelectorAll('div'); // FOR SOME REASON FIRST CLICK HAS TO BE A DOUBLE CLICK
 for (let i = 0; i < pics.length; i++) { // IF U CLICK FAST U CAN SEE MORE THAN 2 CARDS AT THE SAME TIME
