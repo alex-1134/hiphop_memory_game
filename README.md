@@ -1,12 +1,14 @@
-# Milestone Project: Interactive Frontend Development (HTML5 / CSS3 / JAVASCRIPT)
+# Milestone Project 2: Interactive Frontend Development (HTML5 / CSS3 / JAVASCRIPT)
 
 The aim of this project is to design and build a front-end interactive site that will respond to the user's actions.
 The user should be able to engage with the data and alter the way that the information is displayed.
 
 
-## Hip-hop Memory Game
+## Hip-Hop Memory Game
 
-The idea for this project is a simple memory game. The user gets 24 cards (12 pairs) and has to find all the pairs in the shortest time possible. Once they find a pair, the pictures are removed from the board.
+The idea for this project is a simple memory game. The user gets 16 cards (8 pairs) and has to match all the pairs. Once they find a pair, the pictures sta uncovered the board.
+
+You can view the deployed game [here](https://alex-1134.github.io/memory_game_milestone/)
 
 
 ## User Experience (UX)
@@ -28,11 +30,11 @@ The idea for this project is a simple memory game. The user gets 24 cards (12 pa
 
     1. Colour Scheme:
        
-       B&W
+       Pastel colours and black and white pictures to give the game an easy, relaxing vibe.
 
     2. Typography:
 
-
+       Using Roboto font that is simple and easy to read but nicer than standard Times New Roman.
 
     3. Imagery:
        
