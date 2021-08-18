@@ -7,8 +7,7 @@
 }
 
 body {
-    display: flex;
-    flex-wrap: wrap;
+    background-image: url(assets/images/background.jpg);
 }
 
 div {
@@ -19,10 +18,10 @@ div {
     margin: 1px;
 }
 
-/* Pictures for the hip-hop game */
+/* ....................... FIRST GAME 4X4 */
 
 .one {
-        background-image: url("../images/hiphop/juice.png");
+    background-image: url("../images/hiphop/juice.png");
     }
 
 .two {
@@ -58,46 +57,46 @@ div {
     grid-template-columns: repeat(4, 100px);
     grid-template-rows: repeat(4, 100px);
     grid-gap: 1em;
-  }
+}
   
 /* "grid--item" with 2 hyphens for HTML in game_one */  
 .grid--item {
     height: 100px;
     width: 100px;
-  }
+}
 
-/* Pictures for the popstar game */
+/* ....................... SECOND GAME 8x8 */
 
 .pic-1 {
     background-image: url("../images/pop/alicia.jpg");
 }
 
 .pic-2 {
-background-image: url("../images/pop/avicii.jpg");
+    background-image: url("../images/pop/avicii.jpg");
 }
 
 .pic-3 {
-background-image: url("../images/pop/avril.jpg");
+    background-image: url("../images/pop/avril.jpg");
 }
 
 .pic-4 {
-background-image: url("../images/pop/bebe.jpg");
+    background-image: url("../images/pop/bebe.jpg");
 }
 
 .pic-5 {
-background-image: url("../images/pop/beyonce.jpg");
+    background-image: url("../images/pop/beyonce.jpg");
 }
 
 .pic-6 {
-background-image: url("../images/pop/billie.jpg");
+    background-image: url("../images/pop/billie.jpg");
 }
 
 .pic-7 {
-background-image: url("../images/pop/britney.jpg");
+    background-image: url("../images/pop/britney.jpg");
 }
 
 .pic-8 {
-background-image: url("../images/pop/bts.jpg");
+    background-image: url("../images/pop/bts.jpg");
 }
 
 .pic-9 {
@@ -105,54 +104,54 @@ background-image: url("../images/pop/bts.jpg");
 }
 
 .pic-10 {
-background-image: url("../images/pop/dua.jpeg");
+    background-image: url("../images/pop/dua.jpeg");
 }
 
 .pic-11 {
-background-image: url("../images/pop/jess.jpg");
+    background-image: url("../images/pop/jess.jpg");
 }
 
 .pic-12 {
-background-image: url("../images/pop/justin_b.jpg");
+    background-image: url("../images/pop/justin_b.jpg");
 }
 
 .pic-13 {
-background-image: url("../images/pop/justin_t.jpg");
+    background-image: url("../images/pop/justin_t.jpg");
 }
 
 .pic-14 {
-background-image: url("../images/pop/mariah.jpg");
+    background-image: url("../images/pop/mariah.jpg");
 }
 
 .pic-15 {
-background-image: url("../images/pop/ariana.jpg");
+    background-image: url("../images/pop/ariana.jpg");
 }
 
 .pic-16 {
-background-image: url("../images/pop/whitney.jpg");
+    background-image: url("../images/pop/whitney.jpg");
 }
 
 .pic-17 {
     background-image: url("../images/pop/wknd.jpg");
-    }
+}
     
 .pic-18 {
     background-image: url("../images/pop/marshmello.jpg");
-    }
+}
 
 .game-wrap {
-        display: grid;
-        grid-template-columns: repeat(4, 100px);
-        grid-template-rows: repeat(4, 100px);
-        grid-gap: 1em;
-      }
+    display: grid;
+    grid-template-columns: repeat(6, 100px);
+    grid-template-rows: repeat(6, 100px);
+    grid-gap: 1em;
+}
+
 
 /* "grid-item" with 1 hyphen for HTML in game_two */  
 .grid-item {
-        height: 100px;
-        width: 100px;
-      }
-
+    height: 100px;
+    width: 100px;
+}
 
 .matched /* two cards that are a match and no longer a part of the game */ {
     background-color: white;
@@ -162,3 +161,21 @@ background-image: url("../images/pop/whitney.jpg");
     background-color: #ffcccc;
 }
 
+
+/* .................. GAME MENU MAIN PAGE */
+
+.game-menu {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    margin-top:200px;
+    margin-top: 100px;
+}
+
+.header-main {
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
