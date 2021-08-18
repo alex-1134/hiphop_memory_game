@@ -9,12 +9,15 @@
 body {
     background-color: blanchedalmond;
     font-family: 'Roboto', sans-serif;
+    background-image: url(../images/backg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 div {
     height: 100px;
     width: 100px;
-    background-color: #ffcccc;
+    
     border: 1px solid black;
     margin: 1px;
 }
@@ -64,6 +67,7 @@ div {
 .grid--item {
     height: 100px;
     width: 100px;
+    background-color: #ffcccc;
 }
 
 /* ....................... SECOND GAME 8x8 */
@@ -152,6 +156,7 @@ div {
 .grid-item {
     height: 100px;
     width: 100px;
+    background-color: #ffcccc;
 }
 
 .matched /* two cards that are a match and no longer a part of the game */ {
@@ -168,7 +173,7 @@ div {
 .game-menu {
     margin: auto;
     width: 50%;
-    border: 3px solid green;
+    border: none;
     padding: 10px;
     margin-top:200px;
     margin-top: 100px;
@@ -176,6 +181,7 @@ div {
     font-size: 30px;
     text-decoration: none;
     text-align: center;
+    background-color: none;
     
    
 }
