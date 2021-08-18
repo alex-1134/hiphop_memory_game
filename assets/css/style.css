@@ -53,6 +53,19 @@ div {
     background-image: url("../images/hiphop/mata.png");
 }
 
+.game-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(4, 100px);
+    grid-gap: 1em;
+  }
+  
+/* "grid--item" with 2 hyphens for HTML in game_one */  
+.grid--item {
+    height: 100px;
+    width: 100px;
+  }
+
 /* Pictures for the popstar game */
 
 .pic-1 {
@@ -126,6 +139,19 @@ background-image: url("../images/pop/whitney.jpg");
 .pic-18 {
     background-image: url("../images/pop/marshmello.jpg");
     }
+
+.game-wrap {
+        display: grid;
+        grid-template-columns: repeat(4, 100px);
+        grid-template-rows: repeat(4, 100px);
+        grid-gap: 1em;
+      }
+
+/* "grid-item" with 1 hyphen for HTML in game_two */  
+.grid-item {
+        height: 100px;
+        width: 100px;
+      }
 
 
 .matched /* two cards that are a match and no longer a part of the game */ {
