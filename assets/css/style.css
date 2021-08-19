@@ -8,11 +8,14 @@
 }
 
 body {
-    background-color: blanchedalmond;
+    background-color: black;
     font-family: 'Roboto', sans-serif;  
-    background-image: url(../images/white-light.png);
-    background-repeat: no-repeat;
+    background-image: url(../images/background.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
+    background-repeat: repeat;
 }
 
 div {
@@ -260,10 +263,14 @@ div {
     text-transform: uppercase;
     text-align: center;
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
+    border: 1px solid black;
+    background: white;
+    border-radius: 20px;
     font-size: 50px;
     font-weight: 900;
     font-family: 'Cherry Cream Soda', cursive;
+    color: #0099ff;
 }
 
 #main-page-body {
@@ -294,6 +301,6 @@ a {
 }
 
 a:hover {
-    color: orangered;
+    color: #0099ff;
 }
 
