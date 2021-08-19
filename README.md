@@ -97,9 +97,10 @@ You can view the deployed game [here](https://alex-1134.github.io/memory_game_mi
    * go to the project's repository
    * click on the green Gitpod button - this will open a new workspace that will enable to work on the code locally
 
-### Credits
 
-## Game Tutorials:
+## Credits
+
+### Game Tutorials:
   
   * https://www.youtube.com/watch?v=gKUUHjEg7mQ 
   * https://www.deviantart.com/naolito/art/Rock-Paper-Scissors-Bully-846437549
@@ -111,3 +112,10 @@ You can view the deployed game [here](https://alex-1134.github.io/memory_game_mi
   * https://codepen.io/jamesbarnett/pen/kiGsl
   * https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript
   * https://www.youtube.com/watch?v=tjyDOHzKN0w&t=54s
+
+### Photo Edit:
+  * https://www.iloveimg.com/resize-image
+
+### Photo Credits:
+  
+  * All photo credits are listed and avaialable to download [here](https://github.com/alex-1134/memory_game_milestone/blob/main/Photo_Credits_README.docx) .
