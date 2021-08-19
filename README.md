@@ -63,9 +63,11 @@ You can view the deployed game [here](https://alex-1134.github.io/memory_game_mi
 
 ## Code Testing
 
-w3C
-w3C CSS
-JS
+  All the code was tested for errors by the following code validators:
+
+  * W3C
+  * w3C CSS
+  * JS
 
 ## Browser Compability Testing
   
@@ -80,7 +82,32 @@ JS
 
 ### Existing Bugs
 
+  The website seems to be unresponsive for about 1 second after it is loaded.
+
+  While writing the JavaScript code, there was a problem with the first click on the chosen image in the game - it had to be a double click. The issue has been solved. Another bug was that if user clicked fast on more than one photo - more than two cards were visible at the same time. That issue also has been fixed.
 
 ## Deployment
 
+  The website was deployed on GitHub Pages. In order to do so, I logged into my GitHub account, found the repository (memory_game_milestone) and followed the deployment steps.
+
+  In order to clone this project and run it locally: 
+   * log into GitHub account (using Chrome) 
+   * install Gitpod extensions for Chrome 
+   * restart the browser
+   * go to the project's repository
+   * click on the green Gitpod button - this will open a new workspace that will enable to work on the code locally
+
 ### Credits
+
+## Game Tutorials:
+  
+  * https://www.youtube.com/watch?v=gKUUHjEg7mQ 
+  * https://www.deviantart.com/naolito/art/Rock-Paper-Scissors-Bully-846437549
+  * https://www.youtube.com/watch?v=1yS-JV4fWqY	
+  * https://www.youtube.com/watch?v=gKUUHjEg7mQ
+  * https://www.youtube.com/watch?v=jqU3uaRgQyQ
+  * https://www.youtube.com/watch?v=XF1_MlZ5l6M&t=68s
+  * https://www.w3schools.com/js/
+  * https://codepen.io/jamesbarnett/pen/kiGsl
+  * https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript
+  * https://www.youtube.com/watch?v=tjyDOHzKN0w&t=54s
