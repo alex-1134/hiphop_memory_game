@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: black;
+    background-color: rgb(105, 92, 92, .2);
     font-family: 'Roboto', sans-serif;  
     background-image: url(../images/background.jpg);
     -webkit-background-size: cover;
@@ -16,12 +16,13 @@ body {
     -o-background-size: cover;
     background-size: cover;
     background-repeat: repeat;
+    filter: grayscale(100%);
 }
 
+/* The general look of the div elements, mainly aimed at the pictures in the game */
 div {
     height: 100px;
     width: 100px;
-    border: 1px solid black;
     margin: 1px;
     border-radius: 10px;
 }
@@ -61,6 +62,7 @@ div {
     background-image: url("../images/hiphop/mata.png");
 }
 
+/* Game board 4x4 */
 #game-grid {
     display: grid;
     grid-template-columns: repeat(4, 100px);
@@ -182,6 +184,7 @@ div {
     background-image: url("../images/pop/marshmello.jpg");
 }
 
+/* Game board 8x8 */
 #game-wrap {
     display: grid;
     grid-template-columns: repeat(6, 100px);
@@ -242,6 +245,7 @@ div {
 
 /* .................. GAME MENU MAIN PAGE */
 
+/* Buttons to choose which level player wants to play */
 .play-btn {
     text-transform: uppercase;
     text-align: center;
@@ -254,8 +258,34 @@ div {
     padding: 10px;
     color: black;
     margin: auto;
-    display: inline-block; }
+    display: inline-block;
+ }
 
+ .intro {
+    text-align: center;
+    border: 1px solid black;
+    background: white;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif; 
+    padding: 10px;
+    color: black;
+    margin: auto;
+    height: auto;
+    width: 80%;
+ }
+
+ /* Play button for the easier game */
+ .top {
+     margin-top: 2%;
+ }
+
+ /* Play button for the harder game */
+ .bottom {
+     margin-top: 2%;
+ }
 
 #play {
     text-transform: uppercase;
@@ -267,7 +297,6 @@ div {
     margin: auto;
     text-transform: uppercase;
     text-align: center;
-   
     margin-bottom: 20px;
     min-width: 400px;
     
@@ -278,7 +307,6 @@ div {
     text-align: center;
     margin-top: 100px;
     margin-bottom: 50px;
-    border: 1px solid black;
     background: white;
     border-radius: 20px;
     font-size: 50px;

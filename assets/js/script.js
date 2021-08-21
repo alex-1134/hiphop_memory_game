@@ -59,7 +59,7 @@ chosenPic.classList.remove('hidden');
                // Check if the game came to an end
                if (gameResult == gameLenght) {
                    const endGame = new Date().getTime();
-                   const gameTime = (endGame - beginGame) / 1000;
+                   const gameTime = Math.floor(endGame - beginGame) / 1000;
                    alert(`You won! Your time is ${gameTime} seconds!`);
                    location.reload(); // Start the game again
                }

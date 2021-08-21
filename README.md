@@ -30,11 +30,12 @@ You can view the deployed game [here](https://alex-1134.github.io/memory_game_mi
 
     1. Colour Scheme:
        
-      Black and white colour scheme to give the game an easy, relaxing vibe.
+      Black and white colour & grey-ish scheme to give the game an easy, relaxing vibe.
 
     2. Typography:
 
        Using Roboto font that is simple and easy to read but nicer than standard Times New Roman.
+       Using Cherry-Cream-Soda funky font for the header.
 
     3. Imagery:
        
@@ -107,6 +108,17 @@ You can view the deployed game [here](https://alex-1134.github.io/memory_game_mi
    * Family and friends tested the game / reviewed the site to make sure the author did not miss any bugs or problems and that 
      the website is intuitive and easy to use / navigate through.
 
+## Manual Testing
+
+  In order to make sure that everything works fine on the website a series of tests was conducted:
+
+   * Every picture in both games was clicked on to make sure it works
+   * Every picture in both games was double-clicked on to make sure that id does not hide back
+   * As many pictures as possible were quickly clicked on to make sure that no more than two photos could be visible at the same time
+   * All hyperlinks were also checked
+
+   All tests were passed.
+
 ### Existing Bugs
 
   The website seems to be unresponsive for about 1 second after it is loaded.
@@ -132,6 +144,7 @@ You can view the deployed game [here](https://alex-1134.github.io/memory_game_mi
 ## Future Features
 
   The game could be easily expanded by adding more options when it comes to the amount of cards or theme.
+  The background can be imporved.
 
 
 ## Credits
@@ -155,6 +168,7 @@ You can view the deployed game [here](https://alex-1134.github.io/memory_game_mi
 ### Photo Credits:
   
   * All photo credits are listed and avaialable to download [here](https://github.com/alex-1134/memory_game_milestone/blob/main/Photo_Credits_README.docx) .
+  * Background photo: https://www.dreamstime.com/royalty-free-stock-photos-strawberry-seamless-pattern-image17243718 .
 
 ### Bibliography:
 
