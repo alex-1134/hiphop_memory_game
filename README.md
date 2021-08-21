@@ -6,7 +6,7 @@ The user should be able to engage with the data and alter the way that the infor
 
 ## Music Memory Game
 
-The idea for this project is a simple memory game. The user gets 16 / 36 cards (8 / 18 pairs) and has to match all the pairs. Once they find a pair, the pictures stay uncovered the board.
+The idea for this project is a simple memory game. The user gets 16 / 36 cards (8 / 18 pairs) and has to match all the pairs. Once they find a pair, the pictures stay uncovered the board. It is possible to choose an easy game (16 pictures) or a more difficult game (36 pictures).
 
 You can view the deployed game [here](https://alex-1134.github.io/memory_game_milestone/)
 
@@ -55,7 +55,7 @@ You can view the deployed game [here](https://alex-1134.github.io/memory_game_mi
 
   1. [Mockup 1](assets/images/mockup_1.jpg)
   2. [Mockup 2](assets/images/mockup_2.jpg)
-  3. [Mockup 3](assets/images/mockup_3.jpg)
+  3. [Mockup 3](assets/images/mockup_3.png)
 
 ## Features
 
@@ -114,6 +114,11 @@ You can view the deployed game [here](https://alex-1134.github.io/memory_game_mi
    * restart the browser
    * go to the project's repository
    * click on the green Gitpod button - this will open a new workspace that will enable to work on the code locally
+
+
+## Future Features
+
+  The game could be easily expanded by adding more options when it comes to the amount of cards or theme.
 
 
 ## Credits
