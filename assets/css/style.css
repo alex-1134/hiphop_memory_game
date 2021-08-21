@@ -16,7 +16,6 @@ body {
     -o-background-size: cover;
     background-size: cover;
     background-repeat: repeat;
-    filter: grayscale(100%);
 }
 
 /* The general look of the div elements, mainly aimed at the pictures in the game */
