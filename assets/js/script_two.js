@@ -11,16 +11,7 @@ const picSelection = ['pic-1', 'pic-1', 'pic-2', 'pic-2', 'pic-3', 'pic-3', 'pic
  const beginGame = new Date().getTime();
  
  
- 
- const clickPic = function () {
- 
-   chosenPic = this; // Which picture was chosen
-   if (chosenPic == chosenPics[0]) return; // In case the same element gets chosen twice
-
-   chosenPic.classList.remove('hidden'); 
-
-
- // These two functions are based on functions from https://www.youtube.com/watch?v=gKUUHjEg7mQ&t=3902s  
+ // Thisfunction is based on functions from https://www.youtube.com/watch?v=gKUUHjEg7mQ&t=3902s  
  const start = function () {
     pics.forEach(pic => {
         const position = Math.floor(Math.random() * picSelection.length); //1
@@ -32,7 +23,7 @@ const picSelection = ['pic-1', 'pic-1', 'pic-2', 'pic-2', 'pic-3', 'pic-3', 'pic
             pic.classList.add("hidden")
             pic.addEventListener("click", clickPic)
         })
-    }, 2000)
+    }, 1500)
   };
   
   start()
@@ -43,14 +34,18 @@ const picSelection = ['pic-1', 'pic-1', 'pic-2', 'pic-2', 'pic-3', 'pic-3', 'pic
   // Shows which picture has been clicked on
   let chosenPic = '';
   
-
+  const clickPic = function () {
+ 
+    chosenPic = this;
+// Which picture was chosen
+if (chosenPic == chosenPics[0]) return; // In case the same element gets chosen twice
+ chosenPic.classList.remove('hidden');
 // First click, array = 0
 // These two functions are based on functions from https://www.youtube.com/watch?v=gKUUHjEg7mQ&t=3902s
    if (chosenPics.length === 0) {
        console.log("First");
        chosenPics[0] = chosenPic; 
        return;
- 
    }
    else {
        console.log("Second");
@@ -81,8 +76,7 @@ const picSelection = ['pic-1', 'pic-1', 'pic-2', 'pic-2', 'pic-3', 'pic-3', 'pic
            pics.forEach(pic => pic.addEventListener("click", clickPic))
  
        }, 700)
-     }
-   
+     } 
  };
  
  

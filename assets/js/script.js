@@ -8,15 +8,8 @@ let pics = [...document.querySelectorAll('div')];
 // Get the time when the game begins
 const beginGame = new Date().getTime();
 
-const clickPic = function () {
 
-  chosenPic = this; // Which picture was chosen
-  if (chosenPic == chosenPics[0]) return; // In case the same element gets chosen twice
-
-  chosenPic.classList.remove('hidden');
-  
-
-// These two functions are based on functions from https://www.youtube.com/watch?v=gKUUHjEg7mQ&t=3902s
+// This function is based on functions from https://www.youtube.com/watch?v=gKUUHjEg7mQ&t=3902s
 const start = function () {
     pics.forEach(pic => {
     const position = Math.floor(Math.random() * picSelection.length); //1
@@ -39,7 +32,12 @@ const chosenPics = [];
 // Shows which picture has been clicked on
 let chosenPic = '';
 
+const clickPic = function () {
 
+    chosenPic = this; // Which picture was chosen
+    if (chosenPic == chosenPics[0]) return; // In case the same element gets chosen twice
+  
+    chosenPic.classList.remove('hidden');
   // First click, array = 0
   // These two functions are based on functions from https://www.youtube.com/watch?v=gKUUHjEg7mQ&t=3902s
   if (chosenPics.length === 0) {
@@ -82,10 +80,3 @@ let chosenPic = '';
 
 const gameLenght = pics.length / 2; //8 pairs
 let gameResult = 0;
-
-
-
-
-
-
-
