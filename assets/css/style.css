@@ -8,9 +8,9 @@
 }
 
 body {
-    background-color: black;
+    background-color: red;
     font-family: 'Roboto', sans-serif;  
-    background-image: url(../images/background.jpg);
+    /*background-image: url(../images/background.jpg);*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -247,13 +247,11 @@ div {
     width: 50%;
     border: none;
     padding: 10px;
-    margin-top:200px;
     margin-top: 100px;
     text-transform: uppercase;
     font-size: 30px;
     text-decoration: none;
     text-align: center;
-    background-color: white; 
 }
 
 .play-btn {
@@ -292,9 +290,6 @@ div {
     font-weight: 700;
     border-radius: 20px;
     text-decoration: none;
-    border: 1px solid black;
-    background-color: white;
-    text-align: center;
 }
 
 a {
