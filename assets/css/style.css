@@ -241,7 +241,7 @@ div {
 
 
 /* .................. GAME MENU MAIN PAGE */
-/*
+
 .play-btn {
     text-transform: uppercase;
     text-align: center;
@@ -251,9 +251,10 @@ div {
     font-size: 20px;
     font-weight: 600;
     font-family: 'Roboto', sans-serif; 
+    padding: 10px;
     color: black;
     margin: auto;
- } */
+    display: inline-block; }
 
 
 #play {
@@ -267,10 +268,11 @@ div {
     text-transform: uppercase;
     text-align: center;
     border: 1px solid black;
-    background: white;
+    background: red;
     border-radius: 20px;
     color: black;
     margin-bottom: 20px;
+    width: 800px;
 } 
 
 .header-main {
