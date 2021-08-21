@@ -267,12 +267,10 @@ div {
     margin: auto;
     text-transform: uppercase;
     text-align: center;
-    border: 1px solid black;
-    background: red;
-    border-radius: 20px;
-    color: black;
+   
     margin-bottom: 20px;
-    width: 800px;
+    min-width: 400px;
+    
 } 
 
 .header-main {

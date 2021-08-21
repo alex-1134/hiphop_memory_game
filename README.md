@@ -91,6 +91,9 @@ You can view the deployed game [here](https://alex-1134.github.io/memory_game_mi
   * [JS 1](assets/images/js_test_1.jpg)
   * [JS 2](assets/images/js_test_2.jpg)
 
+  There were some semicolons missing in both JS files, but they were fixed after running the code through the validator.
+  * [JS 1 - fixed](assets/images/fixed_js_1.jpg)
+  * [JS 2 - fixed](assets/images/fixed_js_2.jpg)
 
 
 ## Browser Compatibility Testing

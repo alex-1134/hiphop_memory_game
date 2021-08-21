@@ -16,16 +16,16 @@ const picSelection = ['one', 'one', 'two', 'two', 'three', 'three', 'four', 'fou
         const position = Math.floor(Math.random() * picSelection.length); //1
         pic.classList.add(picSelection[position]);
         picSelection.splice(position, 1);
-    })
+    });
     setTimeout(function () {
         pics.forEach(pic => {
-            pic.classList.add("hidden")
-            pic.addEventListener("click", clickPic)
-        })
-    }, 500)
+            pic.classList.add("hidden");
+            pic.addEventListener("click", clickPic);
+        });
+    }, 500);
   };
   
-  start()
+  start();
  
   // Place two chosen pictures here
   const chosenPics = [];
@@ -43,40 +43,36 @@ chosenPic.classList.remove('hidden');
 // First click, array = 0
 // These two functions are based on functions from https://www.youtube.com/watch?v=gKUUHjEg7mQ&t=3902s
    if (chosenPics.length === 0) {
-       console.log("First");
        chosenPics[0] = chosenPic; 
        return;
    } else {
-       console.log("Second");
         // For a brief moment we remove the possibility to click 
-       pics.forEach(pic => pic.removeEventListener("click", clickPic))
+       pics.forEach(pic => pic.removeEventListener("click", clickPic));
        chosenPics[1] = chosenPic;
  
        setTimeout(function () {
            if (chosenPics[0].className === chosenPics[1].className) {
-               console.log("WINNING!")
-               chosenPics.forEach(pic => pic.classList.add("matched"))
+               chosenPics.forEach(pic => pic.classList.add("matched"));
                pics = pics.filter(pic => !pic.classList.contains("matched"));
                gameResult++; // Update game result
 
                // Check if the game came to an end
                if (gameResult == gameLenght) {
                    const endGame = new Date().getTime();
-                   const gameTime = (endGame - beginGame) / 1000
-                   alert(`You won! Your score is: ${gameTime} `)
+                   const gameTime = (endGame - beginGame) / 1000;
+                   alert(`You won! Your time is ${gameTime} seconds!`);
                    location.reload(); // Start the game again
                }
            } else {
-               console.log("Lost")
-               chosenPics.forEach(pic => pic.classList.add("hidden"))
+               chosenPics.forEach(pic => pic.classList.add("hidden"));
            }
 
            chosenPic = ""; 
            chosenPics.length = 0; 
-           pics.forEach(pic => pic.addEventListener("click", clickPic))
+           pics.forEach(pic => pic.addEventListener("click", clickPic));
  
-       }, 700)
-     } 
+       }, 700);
+     }
  };
  
  const gameLenght = pics.length / 2; // 8 pairs
