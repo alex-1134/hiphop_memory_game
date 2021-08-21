@@ -84,12 +84,12 @@ You can view the deployed game [here](https://alex-1134.github.io/memory_game_mi
   * JSHint
 
   You can see the test results below:
-  [HTML 1](assets/images/html_test.jpg)
-  [HTML 2](assets/images/html_test_1.jpg)
-  [HTML 3](assets/images/html_test_2.jpg)
-  [CSS](assets/images/css_test.jpg)
-  [JS 1](assets/images/js_test_1.jpg)
-  [JS 2](assets/images/js_test_2.jpg)
+  * [HTML 1](assets/images/html_test.jpg)
+  * [HTML 2](assets/images/html_test_1.jpg)
+  * [HTML 3](assets/images/html_test_2.jpg)
+  * [CSS](assets/images/css_test.jpg)
+  * [JS 1](assets/images/js_test_1.jpg)
+  * [JS 2](assets/images/js_test_2.jpg)
 
 
 
