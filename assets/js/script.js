@@ -12,14 +12,14 @@ const beginGame = new Date().getTime();
 // This function is based on functions from https://www.youtube.com/watch?v=gKUUHjEg7mQ&t=3902s
 const start = function () {
     pics.forEach(pic => {
-    const position = Math.floor(Math.random() * picSelection.length); //1
-    pic.classList.add(picSelection[position]);
-    picSelection.splice(position, 1);
+        const position = Math.floor(Math.random() * picSelection.length); //1
+        pic.classList.add(picSelection[position]);
+        picSelection.splice(position, 1);
     })
     setTimeout(function () {
         pics.forEach(pic => {
-        pic.classList.add("hidden")
-        pic.addEventListener("click", clickPic)
+            pic.classList.add("hidden")
+            pic.addEventListener("click", clickPic)
         })
     }, 500)
   };

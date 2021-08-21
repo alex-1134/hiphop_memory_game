@@ -36,19 +36,20 @@ const picSelection = ['pic-1', 'pic-1', 'pic-2', 'pic-2', 'pic-3', 'pic-3', 'pic
   
   const clickPic = function () {
  
-    chosenPic = this;
+chosenPic = this;
 // Which picture was chosen
 if (chosenPic == chosenPics[0]) return; // In case the same element gets chosen twice
- chosenPic.classList.remove('hidden');
+ 
+chosenPic.classList.remove('hidden');
 // First click, array = 0
 // These two functions are based on functions from https://www.youtube.com/watch?v=gKUUHjEg7mQ&t=3902s
    if (chosenPics.length === 0) {
        console.log("First");
        chosenPics[0] = chosenPic; 
        return;
-   }
-   else {
+   } else {
        console.log("Second");
+        // For a brief moment we remove the possibility to click 
        pics.forEach(pic => pic.removeEventListener("click", clickPic))
        chosenPics[1] = chosenPic;
  
@@ -66,11 +67,11 @@ if (chosenPic == chosenPics[0]) return; // In case the same element gets chosen 
                    alert(`You won! Your score is: ${gameTime} `)
                    location.reload(); // Start the game again
                }
-           }
-           else {
+           } else {
                console.log("Lost")
                chosenPics.forEach(pic => pic.classList.add("hidden"))
            }
+
            chosenPic = ""; 
            chosenPics.length = 0; 
            pics.forEach(pic => pic.addEventListener("click", clickPic))
@@ -79,6 +80,5 @@ if (chosenPic == chosenPics[0]) return; // In case the same element gets chosen 
      } 
  };
  
- 
- const gameLenght = pics.length / 2;
+ const gameLenght = pics.length / 2; // 18 pairs
  let gameResult = 0;
