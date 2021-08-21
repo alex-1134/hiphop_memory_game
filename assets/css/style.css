@@ -259,6 +259,15 @@ div {
     background-color: none; 
 }
 
+.play-btn {
+    text-align: center;
+    padding: 5%;
+    color: black;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
 .header-main {
     text-transform: uppercase;
     text-align: center;
@@ -286,12 +295,9 @@ div {
     font-weight: 700;
     border-radius: 20px;
     text-decoration: none;
-}
-
-.main-btn {
+    border: 1px solid black;
+    background-color: white;
     text-align: center;
-    padding: 5%;
-    color: black;
 }
 
 a {
