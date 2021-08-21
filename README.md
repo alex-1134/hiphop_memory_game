@@ -30,7 +30,7 @@ You can view the deployed game [here](https://alex-1134.github.io/memory_game_mi
 
     1. Colour Scheme:
        
-      Black and white colour & grey-ish scheme to give the game an easy, relaxing vibe.
+      Black and white colour and grey-ish scheme to give the game an easy, relaxing vibe.
 
     2. Typography:
 
