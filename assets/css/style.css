@@ -87,7 +87,6 @@ div {
 }
 }
 
-
 @media screen and (max-width: 750px) {
     #game-grid {
     display: grid;
@@ -183,7 +182,6 @@ div {
     background-image: url("../images/pop/marshmello.jpg");
 }
 
-
 #game-wrap {
     display: grid;
     grid-template-columns: repeat(6, 100px);
@@ -209,7 +207,6 @@ div {
     filter: grayscale(100%);
 }
 }
-
 
 @media screen and (max-width: 750px) {
     #game-wrap {
@@ -256,7 +253,7 @@ div {
     font-size: 30px;
     text-decoration: none;
     text-align: center;
-    background-color: none; 
+    background-color: white; 
 }
 
 .play-btn {

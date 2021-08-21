@@ -4,9 +4,9 @@ The aim of this project is to design and build a front-end interactive site that
 The user should be able to engage with the data and alter the way that the information is displayed.
 
 
-## Hip-Hop Memory Game
+## Music Memory Game
 
-The idea for this project is a simple memory game. The user gets 16 cards (8 pairs) and has to match all the pairs. Once they find a pair, the pictures sta uncovered the board.
+The idea for this project is a simple memory game. The user gets 16 / 36 cards (8 / 18 pairs) and has to match all the pairs. Once they find a pair, the pictures stay uncovered the board.
 
 You can view the deployed game [here](https://alex-1134.github.io/memory_game_milestone/)
 
@@ -17,9 +17,9 @@ You can view the deployed game [here](https://alex-1134.github.io/memory_game_mi
 
     1. First Time Visitor Goals:
 
-       a. First Time Visitors should be able to identify the purpose of the site by entering the landing page that is an          introduction to the game and also the theme of the game.
+       a. First Time Visitors should be able to identify the purpose of the site by entering the landing page that is an introduction to the game and also the theme of the game.
 
-       b. A First Time Visitor should be able to easily navigate through the page to the game - by pressing the 'PLAY" button.
+       b. A First Time Visitor should be able to easily navigate through the page to the chosen game - by pressing the 'PLAY" button.
 
     2. Returning / Frequent Visitor Goals:
 
@@ -30,7 +30,7 @@ You can view the deployed game [here](https://alex-1134.github.io/memory_game_mi
 
     1. Colour Scheme:
        
-       Pastel colours and black and white pictures to give the game an easy, relaxing vibe.
+      Black and white colour scheme to give the game an easy, relaxing vibe.
 
     2. Typography:
 
@@ -38,11 +38,24 @@ You can view the deployed game [here](https://alex-1134.github.io/memory_game_mi
 
     3. Imagery:
        
-       The game is aimed mainly at younger crowd that is interested in contemporary pop / hip-hop music. Musisians in the pictures are mainly new singers / rappers, but the user can also find some more old school performers from similar genres.
+       The game is aimed mainly at younger crowd that is interested in contemporary pop / hip-hop music. Musicians in the pictures are mainly new singers / rappers, but the user can also find some more old school performers from similar genres.
 
     
 * ### Wireframes
 
+  Wireframes show the general functionality of the game.
+ 
+  1. [Wireframe 1](assets/images/wire-1.jpg)
+  2. [Wireframe 2](assets/images/wire-2.jpg)
+  3. [Wireframe 3](assets/images/wire-3.jpg)
+
+* ### Mockups
+
+  Mockups show how the main page will look on specific devices.
+
+  1. [Mockup 1](assets/images/mockup_1.jpg)
+  2. [Mockup 2](assets/images/mockup_2.jpg)
+  3. [Mockup 3](assets/images/mockup_3.jpg)
 
 ## Features
 
@@ -51,14 +64,15 @@ You can view the deployed game [here](https://alex-1134.github.io/memory_game_mi
 
 
 ## Technologies used
+
+   * Google Fonts
+   * GitHub
   
   ### Languages used:
 
    * HTML
    * CSS
    * JAVASCRIPT
-
-  ### Frameworks, Programs and Libraries Used:
 
 
 ## Code Testing
@@ -67,9 +81,9 @@ You can view the deployed game [here](https://alex-1134.github.io/memory_game_mi
 
   * W3C
   * w3C CSS
-  * JS
+  * JSHint
 
-## Browser Compability Testing
+## Browser Compatibility Testing
   
    * The Website was tested on Google Chrome, Safari, Internet Explorer and Firefox browsres.
 
@@ -85,6 +99,10 @@ You can view the deployed game [here](https://alex-1134.github.io/memory_game_mi
   The website seems to be unresponsive for about 1 second after it is loaded.
 
   While writing the JavaScript code, there was a problem with the first click on the chosen image in the game - it had to be a double click. The issue has been solved. Another bug was that if user clicked fast on more than one photo - more than two cards were visible at the same time. That issue also has been fixed.
+
+### Problems
+
+   I have encountered a couple of problems with the functionality of JS code. Apart from the bugs listed above, I found it hard to make it function with for loops and due to being already close to the deadline, I decided to go with methods found in [this](https://www.youtube.com/watch?v=gKUUHjEg7mQ) YouTube video which I marked in the code by using comments.
 
 ## Deployment
 
@@ -119,3 +137,9 @@ You can view the deployed game [here](https://alex-1134.github.io/memory_game_mi
 ### Photo Credits:
   
   * All photo credits are listed and avaialable to download [here](https://github.com/alex-1134/memory_game_milestone/blob/main/Photo_Credits_README.docx) .
+
+### Bibliography:
+
+  1. Morgan, N., 2015. _JavaScript For Kids_. 4th ed. No Starch Press.
+
+

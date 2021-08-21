@@ -11,7 +11,7 @@ const picSelection = ['pic-1', 'pic-1', 'pic-2', 'pic-2', 'pic-3', 'pic-3', 'pic
  const beginGame = new Date().getTime();
  
  
- // Thisfunction is based on functions from https://www.youtube.com/watch?v=gKUUHjEg7mQ&t=3902s  
+ // This function is based on functions from https://www.youtube.com/watch?v=gKUUHjEg7mQ&t=3902s  
  const start = function () {
     pics.forEach(pic => {
         const position = Math.floor(Math.random() * picSelection.length); //1
